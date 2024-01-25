@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(52, 92, 52);
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+section {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-size: 200px 200px;
+    z-index: 1;
+}
+
+.img1 {
+    background-image: url(fossil1.webp);
+}
+
+.img2 {
+    background-image: url(fossil2.jpg);
+}
+
+.img3 {
+    background-image: url(fossil3.jpg);
+}
+
+.img4 {
+    background-image: url(fossil4.jpg);
+}
+
+.img5 {
+    background-image: url(fossil5.jpg);
+}
+
+.img6 {
+    background-image: url(fossil6.jpg);
+}

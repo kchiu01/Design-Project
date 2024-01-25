@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+        <link rel="stylesheet" href="style5.css">
+    </head>
+    <body>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter Name" required>
+            <br><br>
+            <label for="email">Enter Email Adress</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            <br><br>
+            <label for="date">What Day is it when you are filling out this form?</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <p>How old are you?</p>
+            <label for="question">Age</label>
+            <select name="question" id="question">
+                <option value="q1">0-17</option>
+                <option value="q2">18-45</option>
+                <option value="q3">46-79</option>
+                <option value="q4">80+</option>
+            </select>
+            <br><br>
+            <p>How would you rate your experience with this website?</p>
+            <input type="radio" id="option-1" name="radio" value="1">
+            <label for="option-1">1 Star</label>
+            <br>
+            <input type="radio" id="option-2" name="radio" value="2">
+            <label for="option-2">2 Star</label>
+            <br>
+            <input type="radio" id="option-3" name="radio" value="3">
+            <label for="Option-3">3 Star</label>
+            <br>
+            <input type="radio" id="option-4" name="radio" value="4">
+            <label for="Option-4">4 Star</label>
+            <br>
+            <input type="radio" id="Option-5" name="radio" value="5">
+            <label for="Option-5">5 Star</label>
+            <br><br>
+            <label for="bio"></label>
+            <textarea name="bio" id="bio" cols="30" rows="10">Enter Website Suggestions</textarea>
+            <input type="submit" name="submit" id="submit" value="submit">
+            <br><br>
+        </form>
+    </body>
+</html>

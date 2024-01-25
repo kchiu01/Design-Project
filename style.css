@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: rgb(52, 92, 52);
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+.header {
+   font-size: 100px;
+    color: white;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    z-index: 2;
+}
+main{
+    position: absolute;
+    top: 220px;
+
+}
+section {
+    position: relative;
+    top: 700px;
+    left: 20px;
+    height: 900px;
+    width: 900px;
+    border: 2px solid teal;
+    display: inline-block;
+    background-size: 900px 900px;
+    z-index: 1;
+}
+.bigphoto {
+    width: 100%;
+    height: 1200px;
+}
+
+.imagejurassic {
+    background-image: url(Jurassic-Period.webp);
+}
+
+
+.jurassic {
+    position: relative;
+    top: 700x;
+    left: 80px;
+    font-size: 80px;
+    text-align: left;
+    height: 200px;
+    width: 1800px;
+    border: 0px white;
+}
+
+.jurassic1 {
+    background-image: url(742d17df5582cf13cf23218f2b1300ef.jpg);
+    position: relative;
+    top: 1400px;
+    left: 960px;
+    height: 1800px;
+    width: 1500px;
+}
+
+.carni {
+   background-image: url(allo.jpg); 
+   position: relative;
+   top: 1100px;
+   border: 0 white;
+}
+
+.herbi {
+    background-image: url(Agilisaurus.jpg); 
+    position: relative;
+    top: 1000px;
+    left: 300px;
+    border: 0 white;
+ }
+
+.omni {
+    background-image: url(Chirostenotes.jpg); 
+    position: relative;
+    top: 1000px;
+    left: 600px;
+    border: 0 white;
+ }
+
+ .carni1 {
+    position: relative;
+    top: 800px;
+    text-align: center;
+    font-size: 70px;
+    border: 0 white;
+ }
+ 
+ .herbi1 {
+    position: relative;
+    top: 880px;
+    left: 300px;
+    text-align: center;
+    font-size: 70px;
+    border: 0 white;
+ }
+ 
+ .omni1 {
+    position: relative;
+    top: 1140px;
+    left: 600px;
+    text-align: center;
+    font-size: 70px;
+    border: 0 white;
+ }
+ 
+ .homeimage {
+    border: 0px white;
+    background-image: url();
+ }
+ 
+ .nav {
+    color: black;
+    position: relative;
+    top: 2300px;
+    left: 4000px;
+    font-size: 200px;
+ }

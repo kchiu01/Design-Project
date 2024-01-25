@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: rgb(52, 92, 52);
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+main{
+    position: absolute;
+}
+
+div {
+    font-size: 20px;
+}
+
+section {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-size: 200px 200px;
+    z-index: 1;
+}
+
+.armouredimage {
+    background-image: url(anky.jpg);
+    top: 60px;
+    left: 100px;
+}
+
+.theropodimage {
+    background-image: url(cerato.jpg);
+    top: 60px;
+    left: 200px;
+}
+
+.sauropodimage {
+    background-image: url(brach.jpg);
+    top: 60px;
+    left: 300px;
+}
+
+.ornithopodimage {
+    background-image: url(campto.jpg);
+    top: 60px;
+    left: 400px;
+}
+
+.armoured {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.theropod {
+    position: relative;
+    top: 64px;
+    left: 200px;
+}
+
+.sauropod {
+    position: relative;
+    top: 82px;
+    left: 300px;
+}
+
+.ornithopod {
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
